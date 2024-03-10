@@ -10,5 +10,5 @@ public interface FileConstant {
     /**
      * COS 访问地址
      */
-    String COS_HOST = "https://img.qimuu.icu";
+    String COS_HOST = "https://cjk020329-1324714848.cos-website.ap-guangzhou.myqcloud.com";
 }

@@ -11,7 +11,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/jujiao_yuan
     username: root
-    password: 1234
+    password: root
     type: com.alibaba.druid.pool.DruidDataSource
     druid:
       # 初始化时建立物理连接的个数
@@ -52,12 +52,12 @@ mybatis-plus:
       logic-not-delete-value: 0
 
 #  腾讯云cos配置
-#cos:
-#  client:
-#    accessKey: XXX
-#    secretKey: xxx
-#    region: xxx
-#    bucket: xxx
+cos:
+  client:
+    accessKey: AKIDjIiwFSQCqGRM1RrNirk24pKYXFgrKm7K
+    secretKey: 5vUpwb7OpbGl3AA2mPs9Fct0veBSWSFr
+    region: ap-guangzhou
+    bucket: cjk020329-1324714848
 
 
 # 第三方登录配置 申请地址 https://uniqueker.top/
