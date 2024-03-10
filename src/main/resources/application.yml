@@ -52,12 +52,7 @@ mybatis-plus:
       logic-not-delete-value: 0
 
 #  腾讯云cos配置
-cos:
-  client:
-    accessKey: AKIDjIiwFSQCqGRM1RrNirk24pKYXFgrKm7K
-    secretKey: 5vUpwb7OpbGl3AA2mPs9Fct0veBSWSFr
-    region: ap-guangzhou
-    bucket: cjk020329-1324714848
+
 
 
 # 第三方登录配置 申请地址 https://uniqueker.top/
